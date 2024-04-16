@@ -1,0 +1,45 @@
+Danh sách API
+
+Chung
+1. API đăng nhập: http://localhost:8082/Project_Pettu/api/login
+2. API đăng ký: http://localhost:8082/Project_Pettu/api/register
+3. API đăng xuất: http://localhost:8082/Project_Pettu/api/logout
+
+Admin
+1. API thông tin chi tiết của Pets: http://localhost:8082/Project_Pettu/api/pets/detailInfo
+2. API thông tin chi tiết của Services: http://localhost:8082/Project_Pettu/api/services/detailInfo
+3. API thông tin thời gian làm việc: http://localhost:8082/Project_Pettu/api/services/getTimeWorking
+4. API thông tin chi tiết của Expert Team: http://localhost:8082/Project_Pettu/api/expert_team/detailInfo
+5. API thông tin chi tiết của Expert Team theo Position: http://localhost:8082/Project_Pettu/api/expert_team/detailWithPosition
+6. API danh sách bài viết theo danh mục: http://localhost:8082/Project_Pettu/api/blogs/listBlog
+6. API danh sách các sản phẩm: http://localhost:8082/Project_Pettu/api/products/listProduct
+
+
+Admin Page
+1. API lấy danh sách người dùng: http://localhost:8082/Project_Pettu/api/dashboard/listUser
+2. API lấy danh sách nhân sự: http://localhost:8082/Project_Pettu/api/dashboard/listCompetentPersonnel
+3. API thay đổi trạng thái tài khoản của user: http://localhost:8082/Project_Pettu/api/dashboard/updateStatusAccount
+4. API duyệt trạng thái đăng ký dịch vụ: http://localhost:8082/Project_Pettu/api/dashboard/confirmRegisterService
+5. API lấy danh sách dịch vụ đăng cần chờ duyệt: http://localhost:8082/Project_Pettu/api/dashboard/getPendingService
+6. API lấy trạng thái dịch vụ người dùng đã đăng ký: http://localhost:8082/Project_Pettu/api/dashboard/isRegistered
+7. API lấy danh sách hoá đơn đang chờ duyệt: http://localhost:8082/Project_Pettu/api/dashboard/getPendingBill
+
+User
+1. API thay đổi thông tin người dùng: http://localhost:8082/Project_Pettu/api/users/update 
+2. API lấy danh sách dịch vụ đã đăng ký: http://localhost:8082/Project_Pettu/api/users/getService
+3. API đăng ký dịch vụ: http://localhost:8082/Project_Pettu/api/users/registerService
+4. API huỷ dịch vụ đã đăng ký: http://localhost:8082/Project_Pettu/api/users/deleteService
+5. API thêm sản phẩm vào giỏ hàng: http://localhost:8082/Project_Pettu/api/users/addProductToCart
+6. API thay đổi số lượng sản phẩm trong giỏ hàng: http://localhost:8082/Project_Pettu/api/users/updateQuantityInCart
+7. API xoá sản phẩm trong giỏ hàng: http://localhost:8082/Project_Pettu/api/users/deleteProductInCart
+8. API lấy danh sách sản phẩm trong giỏ hàng: http://localhost:8082/Project_Pettu/api/users/getListProductCart
+9. API lấy số lượng sản phẩm trong giỏ hàng: http://localhost:8082/Project_Pettu/api/users/countListProductCart
+10. API tiến hành mua hàng giỏ hàng: http://localhost:8082/Project_Pettu/api/users/checkOutCart
+11. API thanh toán giỏ hàng: http://localhost:8082/Project_Pettu/api/users/paymentCart
+12. API lấy thông tin bill_detail: http://localhost:8082/Project_Pettu/api/users/billDetail
+13. API xoá bill - bill_detail khi unpayment: http://localhost:8082/Project_Pettu/api/users/deleteBillDetail
+14. API lấy danh sách hoá đơn đã được duyệt: http://localhost:8082/Project_Pettu/api/users/getApprovedBill
+15. API lấy danh sách tất cả hoá đơn chưa được duyệt: http://localhost:8082/Project_Pettu/api/dashboard/getAllPendingBill
+16. API duyệt trạng thái cho hoá đơn: http://localhost:8082/Project_Pettu/api/dashboard/changeBillStatus
+17. API lấy danh sách dịch vụ chưa thanh toán: http://localhost:8082/Project_Pettu/api/dashboard/getUnpaidService
+18. API duyệt trạng thái thanh toán cho dịch vụ người dùng đã đăng ký: http://localhost:8082/Project_Pettu/api/dashboard/changeServicePaymentStatus
